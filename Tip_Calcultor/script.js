@@ -1,6 +1,3 @@
-/*This is typically done to capture a reference to a button element
-that you want to add an event listener to.*/
-
 //Variable that gets an HTML element with id attribute "calculate" 
 const btnEl = document.getElementById("calculate");
 //variable that gets a HTMl element with id attribute "bill"
