@@ -7,7 +7,8 @@ const inputEl = document.querySelector(".input");
 const ulEl = document.querySelector(".list");
 
 //This code checks to see if there is a list of tasks stored in localStorage.
-//If there is, it gets the list and then calls the toDoList() function on each task in the list. This will create a new list item for each task.
+//If there is, it gets the list and then calls the toDoList() function on each task in the list. This will create a
+//new list item for each task.
 let list = JSON.parse(localStorage.getItem("list"));
 if (list) {
   list.forEach((task) => {
