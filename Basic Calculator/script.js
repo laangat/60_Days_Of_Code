@@ -9,7 +9,7 @@ for (let i = 0; i < buttonsE1.length; i++) {
             clearResult();
         } else if (buttonValue === "="){
             calculateResult();
-        } else if(buttonValue === "D") {
+        } else if(buttonValue === "DEL") {
             deleteLastValue();
         } else {
             appendValue(buttonValue);
